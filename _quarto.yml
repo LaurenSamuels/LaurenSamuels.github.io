@@ -1,39 +1,34 @@
-# This file controls the settings for your Quarto template from www.marvinschmitt.com
+# This file controls the settings for the website
+# Quarto template from www.marvinschmitt.com
 
 # website settings
 website:
-  title: "Gandalf"                                # Your name
-  description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
-  image: img/my_image.jpg
+  title: "Lauren R. Samuels"  
+  description: "Collaborative biostatistician"   # A brief slogan (optional)
+  image: img/Samuels_Lauren_2023-05-22_evensmaller.JPG
   
-  favicon: img/favicon.png
+  favicon: img/favicon_io/favicon.ico
   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
-    logo: /img/logo.png
+    #logo: /img/logo.png
     
     # your sub-pages
     left:
       - text: "Projects"
         href: projects/index.qmd
-      - text: "Photography"
-        href: photography/index.qmd
-      - text: "CV"
-        href: cv/index.qmd
+      - text: "Teaching"
+        href: teaching/index.qmd
+      - text: "Presentations"
+        href: presentations/index.qmd
     
     # your social media handles
     right:
-      - icon: folder-symlink
-        href: https://www.marvinschmitt.com/blog/website-tutorial-quarto/
-      - icon: twitter
-        href: https://twitter.com/MarvinSchmittML
+      - icon: github
+        href: https://github.com/LaurenSamuels
       - icon: linkedin
-        href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
-      - icon: envelope
-        aria-label: email
-        href: "mailto:mail.marvinschmitt@gmail.com"  
-  
+        href: http://www.linkedin.com/in/lauren-samuels-9aa541b4
   
 
 # Don't touch unless you know what you are doing :) ------------
