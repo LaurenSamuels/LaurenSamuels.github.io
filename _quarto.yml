@@ -42,9 +42,9 @@ website:
     left: |
       <span class="faux-block">Made with [RStudio](https://posit.co/products/open-source/rstudio/) and [Quarto](https://quarto.org/)</span>
     center: |
-      <span class="faux-block">[A helpful tutorial](https://www.marvinschmitt.com/blog/website-tutorial-quarto/#publishing-your-website-to-the-internet)</span>
+      <span class="faux-block"></span>
     right: |
-      <span class="faux-block">[View the source at GitHub](https://github.com/LaurenSamuels/LaurenSamuels.github.io)</span>
+      <span class="faux-block">Source and credits at [GitHub](https://github.com/LaurenSamuels/LaurenSamuels.github.io)</span>
 
 project:
   type: website
