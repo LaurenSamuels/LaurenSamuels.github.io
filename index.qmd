@@ -9,7 +9,7 @@ about:
       href: https://github.com/LaurenSamuels
     - icon: linkedin
       text: LinkedIn
-      href: http://www.linkedin.com/in/lauren-samuels-9aa541b4
+      href: https://www.linkedin.com/in/lauren-samuels-9aa541b4
 ---
 
 ::: {#about-block}

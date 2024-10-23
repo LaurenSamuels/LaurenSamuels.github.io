@@ -1,13 +1,14 @@
 # This file controls the settings for the website
-# Quarto template from www.marvinschmitt.com
+# It's built from the Quarto template at www.marvinschmitt.com
 
 # website settings
 website:
   title: "Lauren R. Samuels"  
   description: "Collaborative biostatistician"   # A brief slogan (optional)
   image: img/Samuels_Lauren_2023-05-22_evensmaller.JPG
-  
   favicon: img/favicon_io/favicon.ico
+  site-url: "https://laurensamuels.github.io"
+  repo-url: "https://github.com/LaurenSamuels/LaurenSamuels.github.io"
   
   # start of the navigation bar at the top of the website
   navbar:
@@ -16,6 +17,8 @@ website:
     
     # your sub-pages
     left:
+      - text: "About"
+        href: index.qmd
       - text: "Projects"
         href: projects/index.qmd
       - text: "Teaching"
@@ -28,7 +31,7 @@ website:
       - icon: github
         href: https://github.com/LaurenSamuels
       - icon: linkedin
-        href: http://www.linkedin.com/in/lauren-samuels-9aa541b4
+        href: https://www.linkedin.com/in/lauren-samuels-9aa541b4
   
 
 # Don't touch unless you know what you are doing :) ------------
@@ -37,11 +40,11 @@ website:
     type: textbox
   page-footer: 
     left: |
-      <span class="faux-block">Under construction</span>
+      <span class="faux-block">Made with [RStudio](https://posit.co/products/open-source/rstudio/) and [Quarto](https://quarto.org/)</span>
     center: |
-      <span class="faux-block">Under construction</span>
+      <span class="faux-block">[A helpful tutorial](https://www.marvinschmitt.com/blog/website-tutorial-quarto/#publishing-your-website-to-the-internet)</span>
     right: |
-      <span class="faux-block">Under construction</span>
+      <span class="faux-block">[View the source at GitHub](https://github.com/LaurenSamuels/LaurenSamuels.github.io)</span>
 
 project:
   type: website
