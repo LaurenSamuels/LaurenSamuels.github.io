@@ -17,8 +17,6 @@ website:
     
     # your sub-pages
     left:
-      - text: "About"
-        href: index.qmd
       - text: "Projects"
         href: projects/index.qmd
       - text: "Teaching"
